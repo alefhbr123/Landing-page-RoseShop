@@ -4,7 +4,7 @@
     :construction:  Projeto em construção  :construction:
 </h4>
 
-Consiste numa landing page de vendas para uma empresa.
+Consiste numa landing page de vendas para empresa Rose Vittrine.
 
 ## 📌Link: 
 https://alefhbr123.github.io/SafeLock/
