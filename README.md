@@ -54,7 +54,7 @@ LandingPageRoseShop
  ┃ ┗ style.css           (Arquivo de estilos CSS)
  ┣ scripts.js            (Arquivo JavaScript)
  ┗ 📁 fotos
-    ┣ Logo.jpeg            (Sua logo)
+    ┣ Logo.jpeg            (Logo)
     ┣ sandalia1.jpeg
     ┣ sandalia2.jpeg
     ┣ sandalia3.jpeg
