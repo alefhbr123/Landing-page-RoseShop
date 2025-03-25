@@ -7,7 +7,7 @@
 Consiste numa landing page de vendas para empresa Rose Vittrine.
 
 ## 📌Link: 
-https://alefhbr123.github.io/SafeLock/
+https://alefhbr123.github.io/Landing-page-RoseShop/
 
 ## ✔️Tecnologias utilizadas:
 - ``HTML``
