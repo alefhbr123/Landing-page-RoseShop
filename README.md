@@ -13,7 +13,7 @@ https://alefhbr123.github.io/Landing-page-RoseShop/
 - ``HTML``
 - ``CSS``
 - ``JavaScript``
-- 
+
 ## 🔗Funcionalidades:
 - ✅Layout Responsivo:
 O design adapta-se automaticamente a dispositivos móveis e desktops, garantindo uma experiência de usuário consistente em diferentes tamanhos de tela.
