@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rose Vittrine - Promoção</title>
+  <!-- Se o arquivo de CSS está dentro da pasta style e chama style.css -->
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <!-- Cabeçalho fixo -->
+  <header>
+    <div class="logo">Rose Vittrine</div>
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+  
+  <!-- Seção principal (Hero) -->
+  <section class="hero" id="home">
+    <div class="hero-logo">
+        <img src="fotos/Logo.jpeg" alt="Logo Rose Vittrine" />
+      </div>
+    <h1>Bem-vindo à Rose Vittrine</h1>
+    <p>Descubra nossos produtos exclusivos com promoções incríveis para transformar seu dia.</p>
+    <button onclick="scrollToProdutos()">Ver Produtos</button>
+  </section>
+  
+  <!-- Seção de Produtos -->
+  <section class="produtos" id="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="produtos-container">
+      <div class="produto">
+        <!-- Carrossel (Slider) -->
+        <div class="slideshow-container">
+          <div class="slide fade">
+            <!-- Caminho para a pasta fotos -->
+            <img src="fotos/sandalia1.jpeg" alt="Sandália Tamanco Feminino 1">
+          </div>
+          <div class="slide fade">
+            <img src="fotos/sandalia2.jpeg" alt="Sandália Tamanco Feminino 2">
+          </div>
+          <div class="slide fade">
+            <img src="fotos/sandalia3.jpeg" alt="Sandália Tamanco Feminino 3">
+          </div>
+          <div class="slide fade">
+            <img src="fotos/sandalia4.jpeg" alt="Sandália Tamanco Feminino 4">
+          </div>
+          <div class="slide fade">
+            <img src="fotos/sandalia5.jpeg" alt="Sandália Tamanco Feminino 5">
+          </div>
+
+          <!-- Botões de navegação -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <!-- Conteúdo do Produto -->
+        <div class="produto-content">
+          <h3>Sandália Tamanco Feminino</h3>
+          <p><strong>Categoria:</strong> Calçados Femininos Sandálias</p>
+          <p><strong>Referência:</strong> 204A</p>
+          <p><strong>Marca:</strong> Torricella</p>
+          <p><strong>Numeração disponível:</strong> 34 ao 39</p>
+          
+          <p>
+            <strong>DESCRIÇÃO DO PRODUTO</strong><br>
+            Código Ref.: 204A<br>
+            Material: Napa Preto / Napa Lezard Preto;<br>
+            Enfeite: Flor em Napa Preto;<br>
+            Palmilha: 8 mm de Espessura, Espuma em EVA, Revestida em Napa Lezard Preto e Taloneira Napa Preto;<br>
+            Salto: Grosso com 9 cm de Altura Revestido em Napa Lezard Preto;<br>
+            Solado de TR com antiderrapante na cor Preto.<br>
+            Dimensões da Caixa: 28 x 20 x 9,5 cm<br>
+            Peso do Produto na Caixa: 600 gramas (aproximadamente)
+          </p>
+          <p><strong>Frete grátis</strong></p>
+          <p>
+            <!-- Texto explicativo, se quiser -->
+            <strong>De <span class="old-price">R$199,90</span> por <span class="new-price">R$189,91</span></strong>
+          </p>
+          
+          <button onclick="window.location.href='https://wa.me/5591992542946?text=Oi%2C%20tudo%20bem%3F%3F%20Estou%20interessado%20em%20comprar%20um%20produto';">
+            Comprar
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Rodapé -->
+  <footer id="contato">
+    <p>&copy; 2025 Rose Vittrine. Todos os direitos reservados.</p>
+    <p>contatorosevittrine@gmail.com | (91) 99254-2946</p>
+  </footer>
+  
+  
+  <!-- JS: se o arquivo chama scripts.js na raiz, use: -->
+  <script src="scripts.js"></script>
+</body>
+</html>
